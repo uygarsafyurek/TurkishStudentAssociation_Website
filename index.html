@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Turkish Student Association at the University of Georgia."
+    />
+    <meta name="theme-color" content="#842d32" />
+    <title>Turkish Student Association | University of Georgia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="club-name" href="#home" aria-label="Turkish Student Association home">
+        <img class="club-logo" src="./tsa-logo.png" alt="Turkish Student Association at the University of Georgia logo" />
+        <span>Turkish Student Association <small>University of Georgia</small></span>
+      </a>
+      <nav class="topbar-nav" aria-label="Quick navigation">
+        <a href="#about-tsa">About</a>
+        <a href="#photo-gallery">Photos</a>
+        <a href="#executive-board">Board</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <span class="topbar-location">ATHENS, GEORGIA</span>
+    </header>
+
+    <main id="home">
+      <section class="welcome" aria-labelledby="welcome-title">
+        <div class="welcome-copy">
+          <h1 id="welcome-title"><span>Hoş Geldin</span><span class="welcome-english">Welcome</span></h1>
+          <div class="welcome-rule"><span></span></div>
+          <p class="club-description">Turkish Student Association</p>
+          <p class="club-university">at the University of Georgia</p>
+        </div>
+        <div class="welcome-logo-wrap">
+          <span class="logo-halo" aria-hidden="true"></span>
+          <button
+            class="logo-coin"
+            type="button"
+            aria-label="Turkish Student Association logo. Hover or focus to reveal the University of Georgia logo."
+          >
+            <span class="logo-coin__inner">
+              <img class="logo-coin__face logo-coin__face--front" src="./tsa-logo.png" alt="" />
+              <img class="logo-coin__face logo-coin__face--back" src="./uga-logo.png" alt="" />
+            </span>
+          </button>
+          <span class="logo-caption">TÜRKİYE <i aria-hidden="true">·</i> UGA</span>
+        </div>
+      </section>
+
+      <section class="about-tsa" id="about-tsa" aria-labelledby="about-tsa-title">
+        <img class="about-tsa__portrait" src="./ataturk.png" alt="" aria-hidden="true" />
+        <div class="about-tsa__content scroll-reveal">
+          <p class="about-tsa__eyebrow">WHO WE ARE</p>
+          <h2 id="about-tsa-title">What is <em>TSA?</em></h2>
+          <p>
+            The Turkish Student Association is a cultural and social organization dedicated to supporting
+            students and promoting cross-cultural understanding on campus. Membership in the Turkish
+            Student Association is open to all UGA students, regardless of their cultural or ethnic
+            background.
+          </p>
+        </div>
+      </section>
+
+      <section class="photo-gallery" id="photo-gallery" aria-labelledby="gallery-title">
+        <div class="gallery-heading">
+          <p class="gallery-eyebrow">LIFE WITH TSA</p>
+          <h2 id="gallery-title">Snapshots of our community, <em>culture and time together.</em></h2>
+        </div>
+        <div class="photo-film">
+          <button class="photo-film__arrow photo-film__arrow--previous" type="button" aria-label="Show previous photos" aria-controls="photo-film-photos">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6" /></svg>
+          </button>
+          <div class="photo-film__track" id="photo-film-photos" role="region" tabindex="0" aria-label="Turkish Student Association photos">
+            <div class="photo-film__set" role="list">
+              <figure class="film-photo" role="listitem">
+              <div class="film-photo__frame"><img src="./tsa-event-showcase.png" alt="Turkish Student Association cultural showcase table" loading="lazy" /></div>
+            </figure>
+              <figure class="film-photo" role="listitem">
+              <div class="film-photo__frame"><img src="./tsa-hairy-dawg-event.png" alt="Students meeting Hairy Dawg at a campus event" loading="lazy" /></div>
+            </figure>
+              <figure class="film-photo" role="listitem">
+              <div class="film-photo__frame"><img src="./tsa-cultural-outreach.png" alt="TSA members sharing Turkish culture on campus" loading="lazy" /></div>
+            </figure>
+              <figure class="film-photo" role="listitem">
+              <div class="film-photo__frame"><img src="./tsa-community-dinner.png" alt="TSA members gathered for a community dinner" loading="lazy" /></div>
+            </figure>
+              <figure class="film-photo" role="listitem">
+              <div class="film-photo__frame"><img src="./tsa-shared-meal.png" alt="Students sharing a meal together" loading="lazy" /></div>
+            </figure>
+              <figure class="film-photo" role="listitem">
+              <div class="film-photo__frame"><img src="./tsa-game-night.png" alt="TSA members playing a game together" loading="lazy" /></div>
+            </figure>
+              <figure class="film-photo" role="listitem">
+              <div class="film-photo__frame"><img src="./tsa-scarf-photo.png" alt="TSA members smiling together with a Türkiye scarf" loading="lazy" /></div>
+            </figure>
+              <figure class="film-photo" role="listitem">
+              <div class="film-photo__frame"><img src="./tsa-club-gathering.png" alt="Turkish Student Association members together" loading="lazy" /></div>
+            </figure>
+              <figure class="film-photo" role="listitem">
+              <div class="film-photo__frame"><img src="./tsa-club-presentation.png" alt="TSA members introducing the club at a campus meeting" loading="lazy" /></div>
+            </figure>
+            </div>
+          </div>
+          <button class="photo-film__arrow photo-film__arrow--next" type="button" aria-label="Show next photos" aria-controls="photo-film-photos">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+          </button>
+        </div>
+      </section>
+
+      <section class="executive-board" id="executive-board" aria-labelledby="board-title">
+        <div class="board-heading scroll-reveal">
+          <p class="board-eyebrow">THE PEOPLE BEHIND TSA</p>
+          <h2 id="board-title">Meet the <em>Executive Board</em></h2>
+        </div>
+        <figure class="board-photo scroll-reveal">
+          <div class="board-photo__frame">
+            <img
+              src="./executive-board.png"
+              alt="Turkish Student Association executive board members together"
+              loading="lazy"
+            />
+          </div>
+          <figcaption>Turkish Student Association · University of Georgia</figcaption>
+        </figure>
+      </section>
+
+      <section class="board-profiles" aria-labelledby="board-profiles-title">
+        <div class="board-heading scroll-reveal">
+          <p class="board-eyebrow">GET TO KNOW OUR TEAM</p>
+          <h2 id="board-profiles-title">Executive Board <em>Members</em></h2>
+        </div>
+        <div class="board-cards">
+          <article class="board-card scroll-reveal" tabindex="0">
+            <img src="./exec-alina-adler.jpg" alt="Alina Sude Adler" loading="lazy" />
+            <div class="board-card__content">
+              <p class="board-card__role">President</p>
+              <h3>Alina Sude Adler</h3>
+              <ul>
+                <li>Fourth-year undergraduate student in Management with a Spanish minor</li>
+                <li>From Izmir</li>
+              </ul>
+            </div>
+          </article>
+          <article class="board-card scroll-reveal" tabindex="0">
+            <img src="./exec-eylul-ondortoglu.jpg" alt="Eylul Ondortoglu" loading="lazy" />
+            <div class="board-card__content">
+              <p class="board-card__role">Vice President</p>
+              <h3>Eylul Ondortoglu</h3>
+              <ul>
+                <li>Third-year Biomedical Physiology pre-med undergraduate student with Biology and ASL minors</li>
+                <li>From Kadikoy, Istanbul</li>
+              </ul>
+            </div>
+          </article>
+          <article class="board-card scroll-reveal" tabindex="0">
+            <img src="./exec-yasemin-sipahi.jpg" alt="Dr. Yasemin Sipahi" loading="lazy" />
+            <div class="board-card__content">
+              <p class="board-card__role">Secretary</p>
+              <h3>Dr. Yasemin Sipahi</h3>
+              <ul>
+                <li>Graduate Research and Teaching Assistant in Educational Psychology</li>
+                <li>From Salihli, Manisa</li>
+              </ul>
+            </div>
+          </article>
+          <article class="board-card scroll-reveal" tabindex="0">
+            <img src="./exec-uygar-safyurek.jpg" alt="Uygar Safyurek" loading="lazy" />
+            <div class="board-card__content">
+              <p class="board-card__role">IT &amp; Social Outreach</p>
+              <h3>Uygar Safyurek</h3>
+              <ul>
+                <li>Third-year undergraduate student in Computer Science</li>
+                <li>Website created by Uygar Safyurek</li>
+                <li>From Seyhan, Adana</li>
+              </ul>
+            </div>
+          </article>
+          <article class="board-card scroll-reveal" tabindex="0">
+            <img src="./exec-bedirhan-budak.jpg" alt="Bedirhan Budak" loading="lazy" />
+            <div class="board-card__content">
+              <p class="board-card__role">Treasurer</p>
+              <h3>Bedirhan Budak</h3>
+              <ul>
+                <li>PhD student at UGA</li>
+                <li>Graduate Research Assistant in the School of Computing</li>
+                <li>From Trabzon</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact__content scroll-reveal">
+          <p class="contact__eyebrow">STAY CONNECTED</p>
+          <h2 id="contact-title">Let’s <em>connect.</em></h2>
+          <p>Follow TSA, join our community, or send us a message.</p>
+          <div class="contact-links">
+            <a
+              class="contact-link"
+              href="https://www.instagram.com/ugaturks/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle class="contact-link__icon-dot" cx="17.5" cy="6.5" r="0.75" />
+              </svg>
+              <span>Instagram</span>
+              <small>@ugaturks</small>
+            </a>
+            <a
+              class="contact-link"
+              href="https://groupme.com/join_group/112771386/c8L6s4IP"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 11.5a8.5 8.5 0 0 1-12.6 7.4L4 20l1.1-3.1A8.5 8.5 0 1 1 20 11.5Z" />
+                <path d="M8.5 11.5h.01M12 11.5h.01m3.49 0h.01" />
+              </svg>
+              <span>GroupMe</span>
+              <small>Join our community</small>
+            </a>
+            <a class="contact-link" href="mailto:ugaturks@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m4 7 8 6 8-6" />
+              </svg>
+              <span>Email</span>
+              <small>ugaturks@gmail.com</small>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Turkish Student Association</span>
+      <span>University of Georgia · Athens, GA</span>
+      <span class="footer-credit">
+        <span>Website created by Uygar Safyurek</span>
+        <a href="mailto:safyurek-uygar@hotmail.com">safyurek-uygar@hotmail.com</a>
+      </span>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
